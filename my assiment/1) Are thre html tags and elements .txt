@@ -1,0 +1,200 @@
+1) Are thre html tags and elements the same think 
+=> NO , 
+    An HTML element is an individual component of an HTML document. It represents semantics, or meaning. For example, the title element represents the title of the document.
+     Most HTML elements are written with a start tag (or opening tag) and an end tag (or closing tag), with content in between. Elements can also contain attributes that define its additional properties. For example, a paragraph, which is represented by the p element, would be written as:
+
+
+2) What are tags and attributes in HTML 
+ => All HTML elements can have attributes. Attributes provide additional information about elements. Attributes are always specified in the start tag. Attributes usually come in name/value pairs like: name="value"
+
+3) What is void element in HTML ? with example .
+=> Void tags are HTML tags that do not need a closing tag. 
+example 
+
+    !) hr tags 
+    !!) br
+    !!!) input tags ,etc
+
+4) What are HTML Entities? With Example.
+=>  html in entites is lesssthen (>),(<) and graterthen ,
+     special set of character 
+exampl
+   <	less than	&lt;
+   >	greater than	&gt;
+   &	ampersand	&amp;
+   "	double quotation mark	&quot;
+
+5)  What are different types of lists in HTML? With Example.
+=> <ul>	 unordered list
+     
+  <ol>   ordered list
+
+6) What is the ‘class’ attribute in HTML? With Example.
+=> The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
+examle
+.myclass {
+    color: blue;
+}
+
+.myclass2 {
+    color: green;
+}
+</style>
+</head>
+<body>
+
+<h1 class="myclass">Header 1</h1>
+<p>A paragraph.</p>
+<p class="myclass2">Note that this is an important paragraph. :)</p>
+
+7)  What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+elements? With Example.
+=> class attribite in css used befro used to (.) ans id attribute used in (#) 
+
+8)  What are the various formatting tags in HTML?
+ => various formating tags is modifecetion in font just example
+  <b> - Bold text.
+<strong> - Important text.
+<i> - Italic text.
+<em> - Emphasized text.
+<mark> - Marked text.
+<small> - Smaller text.
+<del> - Deleted text.
+<ins> - Inserted text.
+
+
+9) How is Cell Padding different from Cell Spacing? With Example.
+=> Cellpadding basically defines the space present between a table cell's border and the content present in it. Cellspacing basically defines the space present between individual adjacent cells.
+ <table style paddin="20px"> 
+ <table style spacing="20"> 
+
+10) How can we club two or more rows or columns into a single row or column in an HTML
+table? With Example.
+ => We use the colspan and rowspan attribute, to merge cells in HTML. The rowspan attribute is for the number of rows a cell should merge, whereas the colspan attribute is for the number of columns a cell should merge.
+    The attribute should be placed inside the <td> tag.
+         <html>
+   <style>
+      table,tr,th,td {
+         border:1px solid black;
+      }
+   </style>
+<body>
+   <h2>Tables in HTML</h2>
+   <table style="width: 100%">
+      <tr>
+         <th >First Name </th>
+         <th>Job role</th>
+      </tr>
+      <tr>
+         <td >Tharun</td>
+         <td rowspan="2">Content writer</td>
+      </tr>
+      <tr>
+         <td >Akshaj</td>
+      </tr>
+   </table>
+</body>
+</html>
+
+11)  What is the difference between a block-level element and an inline element?
+=> In this article, we will learn about inline and block elements in HTML, which are default display values. The most used block element tag is <div> tag and inline element tags are <a>, <span> tags.
+
+
+12) How to create a Hyperlink in HTML? With Example.
+=>
+- Use the <a> element to define a link.
+- Use the href attribute to define the link address.
+- Use the target attribute to define where to open the linked document.
+- Use the <img> element (inside <a> ) to use an image as a link.
+    <a href="https://www.google.com/">manoj</a>
+
+13) What is the use of an iframe tag? With Example.
+ => The <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document. Tip: Use CSS to style the <iframe> (see example below). Tip: It is a good practice to always include a title attribute for the <iframe> .
+<iframe src"(url)" height="300" width="400"></iframe>   
+
+
+14. What is the use of a span tag? Explain with example?
+Ans.=> The HTML <span> tag is used for grouping and applying styles to inline elements.
+      -The <span> tag is an inline container used to mark up a part of a text, or a part of a document. 
+      -The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+      -The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+      
+       example      
+                                                   <html>
+                                                      <head>
+                                                            <title>HTML span Tag</title>
+                                                      </head>
+                                                      <body>
+                                                            <p>This is a paragraph <span style = "color:red;">
+                                                               This is a paragraph</span>hello user</p>
+      
+                                                            <p><span style = "color:pink;">
+                                                                 This is another paragraph</span></p>
+                                                       </body>
+                                                    </html>
+
+
+15. How to insert a picture into a background image of a web page?
+Ans.=> The most common & simple way to add background image is using the background image attribute inside the <body> tag.
+      -The background attribute which we specified in the <body> tag is not supported in HTML5.
+      -> To insert a picture into a background image of a web page:-
+                           
+                                 <html>
+                                      <head>
+                                            <title>My Webpage</title>
+                                      </head>
+                                      <body bgcolor="pink">
+                                           <body background="imag1.jpg">   
+                                      </body>
+                                  </html>
+
+16. How are active links different from normal links?
+Ans.=> The default color for normal and active links is blue. 
+      -Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. 
+      -Those that don’t have a mouse cursor over that link is considered a normal link. 
+
+17. What are the different tags to separate sections of text?
+Ans.=> <br> tag –> It is used to separate the line of text. 
+       It breaks the current line and shifts the flow of the text to a new line.
+     - <p> tag –> This tag is used to write a paragraph of text.
+     - <blockquote> tag –> This tag is used to define large quoted sections.
+
+18. What is SVG? 
+Ans.=> SVG stands for Scalable Vector Graphics. SVG is used to define graphics for the Web. SVG is a W3C recommendation.
+     - SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
+
+19. What is difference between HTML and XHTML?  
+ => XHTML stands for Extensible Hypertext Markup Language. It can be considered as a part of the XML markup language this is because of XHTML have features of both XML and HTML. XHTML is extended from XML and HTML. XHTML can be considered as a better version of HTML. 
+                      	     html                                                                               	XHTML
+1.	HTML stands for Hypertext Markup Language.                                                      	XHTML stands for Extensible Hypertext Markup Language.
+2.	It was developed by Tim Berners-Lee.	                                                                It was developed by W3C i.e World Wide Web Consortium.
+3.	It was developed in 1991.	                                                                       It was released in 2000.
+4.	It is extended from SGML.	                                                                       It is extended from XML and HTML.
+5.	The format is a document file format.                                                   	      The format is a markup language.
+6.	All tags and attributes are not necessarily to be in lower or upper case.	                   In this, every tag and attribute should be in lower case.
+7.	Doctype is not necessary to write at the top.	                                                  Doctype is very necessary to write at the top of the file.
+8.	It is not necessary to close the tags in the order they are opened.	                           It is necessary to close the tags in the order they are opened.
+9.	While using the attributes it is not necessary to mention quotes.  For e.g. <Geeks>. 	          While using the attributes it is mandatory to mention quotes.  For e.g. <Geeks=”GFG”>.
+10.	Filename extension used are .html, .htm.	                                                   Filename extension are .xhtml, .xht, .xml.
+Conclusion:     
+       
+
+20. What are logical and physical tags in HTML? 
+Ans.=> Logical Tags:-
+      -Logical tags refer to the semantic elements in HTML that are used to define the structure and meaning of content. 
+      -These elements convey the purpose or role of the content, making it more accessible to both humans and machines. 
+      -Logical tags are designed to provide information about the content rather than its appearance.
+
+     -Examples of logical tags in HTML5 include:- <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>, <h1> to <h6>,
+                                                  <p>, <ul>, <ol>, <li>, <table>, <form>, and many more. 
+     -These tags help structure the content and provide semantic information about the sections, headings, paragraphs, lists, tables, forms, and other elements.
+     
+    => Physical Tags:-
+      -The term "physical tags" is less commonly used, but it could refer to the presentational or formatting elements in HTML. 
+      -These elements are used to define the appearance or visual presentation of content, rather than its meaning or structure.
+
+      -In earlier versions of HTML, there were various physical tags, such as <b>, <i>, <u>, <font>, <strike>, and <center>, among others. 
+      -These tags directly influenced the appearance of the text or elements, indicating bold, italic, underlined text, font properties, strikethrough, or center alignment. 
+ 
+
+
