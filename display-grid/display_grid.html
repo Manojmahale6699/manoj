@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display:grid;
+            /* grid-template-columns: auto auto auto auto auto; */
+            /* grid-template-columns: 1fr 1fr 1fr 1fr 4fr ; */
+            grid-template-columns: repeat(5,1fr);
+            gap:10px;
+            justify-items: center;
+            align-items: center;
+            
+        }
+        .sub{
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+        }
+        .sub1{
+            height: 150px;
+            width: 150px;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub1">div1</div>
+        <div class="sub">div2</div>
+        <div class="sub1">div3</div>
+        <div class="sub">div4</div>
+        <div class="sub1">div5</div>
+        <div class="sub">div6</div>
+        <div class="sub1">div7</div>
+        <div class="sub">div8</div>
+        <div class="sub1">div9</div>
+        <div class="sub">div10</div>
+    </div>
+</body>
+</html>
