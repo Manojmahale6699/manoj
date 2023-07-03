@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            height: 100px;
+            width: 100px;
+            background-color: darkorange;
+            margin: 250px auto;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name: example;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-fill-mode: backwards;
+        }
+
+            @keyframes example {
+                from{
+                    height: 100px;
+                    width: 100px;
+                }
+                to{
+                    height: 150px ;
+                    width: 150px ;
+                    border-radius: 50%;
+                    background-color: rgb(46, 165, 42);
+                    transform: rotate(360deg) translateX(25px) translateY(25px) translateZ(25px )
+
+
+                }
+            }   
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+</body>
+</html>
